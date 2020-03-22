@@ -1,0 +1,58 @@
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 92px;
+    width: 272px;
+}
+
+#search-bar {
+    width: 482px;
+    height: 42px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+#search {
+    width: 398px;
+    height: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+#buttons {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 15%;
+}
+
+.buttons {
+    height: 40px;
+    width: 120px;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    color: #5F6368;
+}
+
+#about {
+    text-align: left;
+}
+
+#gmail {
+    text-align: right;
+}
+
+#glass {
+    position: relative;
+    top: -25px;
+    width: 4%;
+}
