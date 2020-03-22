@@ -1,3 +1,9 @@
+#main {
+    height: 100vh;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 #logo {
     display: block;
     margin-left: auto;
@@ -14,6 +20,7 @@
     margin-right: auto;
     border-radius: 30px;
     border-style: groove;
+    border-color: lightgray;
 }
 
 #search {
@@ -25,22 +32,25 @@
     border: none;
 }
 
-#buttons {
-    display:block;
+#buttons-div {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 15%;
 }
 
-.buttons {
+.button {
     height: 40px;
     width: 120px;
     border-radius: 3px;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     border: none;
     color: #5F6368;
+    text-align: center;
+    display: inline-block;
+
 }
 
 #about {
@@ -54,5 +64,15 @@
 #glass {
     position: relative;
     top: -25px;
-    width: 4%;
+    width: 3%;
+    left: 15px;
+}
+
+#content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
